@@ -22,8 +22,8 @@
         }
     </style>
 </head>
-<body class="text-manrope w-full md:w-4/5 mx-auto">
-    <header class="lg:flex lg:justify-between">
+<body class="text-manrope">
+    <header class="w-full md:w-4/5 mx-auto lg:flex lg:justify-between">
         <!-- Header text area -->
          <div class="mt-10 w-11/12 md:w-4/5 lg:w-3/5 mx-auto lg:ml-0 space-y-8 text-center lg:text-left">
             <h1 class="text-7xl font-semibold leading-[80px] text-[#1C1C1C]">
@@ -53,7 +53,7 @@
             </button>
         </div>
     </header>
-    <main>
+    <main class="w-full md:w-4/5 mx-auto">
         <!-- Featured Product -->
          <section>
             <div class="text-center mt-10 space-y-6">
@@ -272,8 +272,62 @@
                   </div>
             </section>
     </main>
-    <footer>
+    <footer class="mt-24 w-full bg-gradient-to-r from-orange-50 to-red-100 py-10 md:py-16 lg:py-32">
+        <div class="w-full md:w-4/5 mx-auto">
+            <!-- icon area -->
+            <div class="flex items-center md:justify-between flex-col md:flex-row">
+                    <div>
+                        <img src="images/cup.png" alt="Cup icon">
+                    </div>
+                <div class="flex gap-8 items-center flex-col md:flex-row">
+                    <p class="text-2xl text-gray-600">Ready to get started?</p>
+                    <button class="px-10 py-6 bg-gradient-to-r from-orange-500 to-red-600 text-white font-bold text-2xl rounded-xl hover:bg-sky-500">
+                        Get Started
+                    </button>
+                </div>
+            </div>
 
+            <!-- links area -->
+             <div class="pt-24 pl-12 md:pl-0 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+                <div class="space-y-6">
+                    <h1 class="text-3xl font-bold text-gray-900">Quick Links</h1>
+                    <li class="list-none text-2xl font-medium text-gray-600">Home</li>
+                    <li class="list-none text-2xl font-medium text-gray-600">About us </li>
+                    <li class="list-none text-2xl font-medium text-gray-600">Insurance </li>
+                    <li class="list-none text-2xl font-medium text-gray-600">Privacy Policy</li>
+                </div>
+                <div class="space-y-6">
+                    <h1 class="text-3xl font-bold text-gray-900">Our services</h1>
+                    <li class="list-none text-2xl font-medium text-gray-600">Life Insurance</li>
+                    <li class="list-none text-2xl font-medium text-gray-600">Car Insurance</li>
+                    <li class="list-none text-2xl font-medium text-gray-600">Health Insurance</li>
+                    <li class="list-none text-2xl font-medium text-gray-600">House Insurance</li>
+                </div>
+                <div class="space-y-6">
+                    <h1 class="text-3xl font-bold text-gray-900">FAQ</h1>
+                    <li class="list-none text-2xl font-medium text-gray-600">Faqs</li>
+                    <li class="list-none text-2xl font-medium text-gray-600">COntact Us</li>
+                </div>
+                <div class="space-y-8">
+                    <h1 class="text-3xl font-bold text-gray-900">Subscribe to our newsletter</h1>
+                    <div class="mb-12 flex">
+                        <div>
+                            <input placeholder="Email Address" type="email" class="border-b border-gray-600 h-14 w-52 md:w-44 lg:w-56 placeholder:text-xl">
+                        </div>
+                        <div>
+                            <button class="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 rounded-full ml-2">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="space-x-8">
+                        <i class="fa-brands fa-facebook-f fa-2xl text-gray-700"></i>
+                        <i class="fa-brands fa-twitter fa-2xl text-gray-700"></i>
+                        <i class="fa-brands fa-instagram fa-2xl text-gray-700"></i> 
+                    </div>
+                </div>
+             </div>
+        </div>
     </footer>
 </body>
 </html>
